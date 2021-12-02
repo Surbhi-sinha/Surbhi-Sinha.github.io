@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    border-bottom: blue solid 3px;
+    color: white;
+  }
+  
+  .topnav a.active {
+    border-bottom: blue solid 3px;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+  }
+  .banner-container .centered h1{
+        color: whitesmoke;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 3px;
+        padding: 0;
+        padding-bottom: 3px;
+        text-decoration: underline overline 2px ;
+        font-size: 4.5em;
+        font-weight: 700;
+        letter-spacing: .1em;
+        line-height: 1em;
+        text-transform: uppercase;
+        font-family: 'Open Sans Condensed', sans-serif;
+        
+  }
+  .banner-container .centered p{
+      color:rgb(219, 237, 248);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 3px;
+    padding: 0 8px;
+    letter-spacing: .1em;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  .banner-container .social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+.banner-container .social-icons a {
+    
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 90px !important;
+    height: 52px;
+    line-height: 60px;
+    padding: 0px;
+    width: 52px;
+    display: inline-block;
+    color: rgb(121, 119, 119);
+    margin: 0 6px;
+}
+.centered2{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fa-linkedin:hover{
+    color: rgb(78, 78, 204);
+}
+.fa-github:hover{
+    color:rgb(77, 75, 75);
+}
+.fa-twitter:hover{
+    color:rgb(0, 187, 255);
+}
+.fa-quora:hover{
+    color:red;
+}
+.fa-instagram:hover{
+    color:rgba(253, 9, 172, 0.898);
+}
+section{
+    margin:0;
+}
+#intro{
+    margin-top: -10px;
+    padding: 50px 0;
+    background-color: black;
+    height:250px;
+    color: white;
+}
+.centeredintro{
+    position: absolute;
+    left: 5%;
+    right: 10%;
+    background-color: black;
+    transform: translate(0%,10%);
+}
+.centeredintro h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+.centeredintro li{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+.column {
+    float: left;
+    width: 40%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .aboutuscolumn{
+      padding:2%;
+  }
+
+  .aboutuscolumn img{
+      margin-left:20%;
+      margin-top:10%;
+      border:solid rgb(237, 111, 132) 10px;
+      border-radius: 30%;
+      height: 40em;
+      width:25em;
+  } 
+  .aboutuscolumn h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:35px;
+  }
+  .aboutuscolumn h3{
+      margin-top: 1em;
+      margin-bottom: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .about-content{
+    margin-top:5%;
+    
+  }
+  .about-column{
+      border-radius:10% ;
+      border:solid pink 2px;
+      transform: rotate(-15deg);
+      margin-top: 5%;
+      margin-right: 5%;
+      height: 12em;
+      float:left;
+      width:40%;
+      padding:10px;
+  }
+  .about-column i{
+      color: rgb(235, 75, 101);
+
+  }
+  .about-column h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:rgb(194, 24, 52);
+    margin-left:5%;
+  }
+  .about-column p{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("imges/firmbee-com-ir5lIkVFqC4-unsplash.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxTXT{
+      color: white;
+      background-color: rgb(4, 2, 36);
+      padding:5em;
+      font-size: larger;
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+  .skills-Heading h2{
+    font-family: 'Bebas Neue',sans-serif;
+    font-size:50px;
+    color: #160261;
+    margin-bottom:1.5em;
+  }
+  .column3{
+    float: left;
+    width: 45%;
+    margin-right: 2em;
+  }
+  .column3 p{
+    font-family: 'Rubik', sans-serif;
+    color: blue;
+    font-size: large;
+  }
+
+  .skills-container{
+      padding:2em;
+  }
+  .skillcontainer{
+    width: 100%;
+  background-color: #ddd;
+  }
+  .skills{
+      margin-bottom:1em;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  .html {width: 90%; background-color: #160261;}
+  .css {width: 80%; background-color: #160261;}
+  .php {width: 60%; background-color: #160261;}
+  .java {width: 60%; background-color: #160261;}
+  .js {width: 65%; background-color: #160261;}
+  .dsa {width: 60%; background-color: #160261;}
+  .node {width: 60%; background-color: #160261;}
+  .react {width: 50%; background-color: #160261;}
+  .express {width: 60%; background-color: #160261;}
+  .jquery {width: 60%; background-color: #160261;}
+
+  #experience{
+      background-color: #ddd;
+
+  }
+  .experience-heading{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 35px;
+    padding:2em;
+  }
+  .experience-heading span{
+      font-size: 45px;
+  }
+
+/* Float four columns side by side */
+.experience-column {
+    float: left;
+    width: 23%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .experience-row {
+    margin-top: 2em;
+    margin-left: 7em;
+    margin-right: 2em;
+    padding:3em;
+    }
+  
+  /* Clear floats after the columns */
+  .experience-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .experience-column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+      border-radius:5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 12em;
+    width: 12em;
+  }
+  .card img{
+    height: 10em;
+    width: 12em;
+      
+  }
+  .card p{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* prtfolio */
+
+
+  #portfolio{
+    background-color: rgb(196, 193, 193);
+    
+  }
+  .porfolio-header {
+    text-align: center;
+    padding: 32px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    padding:2em;
+  }
+  .porfolio-header span{
+    font-size: 45px;
+  }
+  .portfolio-row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 2em 5em;
+    
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .portfolio-column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 1em 3em;
+
+  }
+  
+  .portfolio-column img {
+    vertical-align: middle;
+    height: 20em;
+    width: 20em;
+    padding: 0.3em 1em;
+  }
+
+  .portfolio-column img:hover{
+    animation: mymove 1s infinite;
+    
+  }
+  @keyframes mymove {
+    50% {box-shadow: 5px 5px 10px rgb(138, 136, 136)}
+  }
+  /* Style the buttons */
+  .portfolio-btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .portfolio-btn:hover {
+    background-color: #ddd;
+  }
+  
+  .portfolio-btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+  .hiddenclass{
+    display: none;
+  }
+  
+  .contact{
+    background-color:#3394D5;
+    height: 35em;
+  }
+
+  .contact-heading h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 35px;
+    padding:2em 2em 0.3em;
+    color:white;
+  }
+  .contact-heading h1 span{
+    font-size: 45px;
+  }
+  .contact-heading p{
+    padding:0 2em;
+    color: white;
+    font-size: larger;
+  }
+
+  .contactform{
+    height:0em;
+  }
+  .contact-row{
+    padding:3em;
+  }
+  .contact-column{
+    float: left;
+    width: 31%;
+    padding: 10px;
+    
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #1a8f03;
+    color: rgb(250, 251, 252);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #47fc47;
+  }
+
+  .address{
+    color: white;
+    margin-top: 3em;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+  .address i{
+    color:whitesmoke;
+    padding:2px;
+  }
+  .downloadbtn{
+    background-color: blue;
+    color:#ccc;
+    margin: 0.5em;
+    font-size: large;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
