@@ -65,7 +65,7 @@
     margin-top: 20px;
 }
 .banner-container .social-icons a {
-    
+    font-size:30px;
     text-align: center;
     border: 1px solid rgb(121, 119, 119);
     border-radius: 90px !important;
@@ -175,6 +175,7 @@ section{
       padding:10px;
   }
   .about-column i{
+    font-size:75px;
       color: rgb(235, 75, 101);
 
   }
@@ -192,7 +193,7 @@ section{
   .parallax {
     /* The image used */
     background-image: url("imges/firmbee-com-ir5lIkVFqC4-unsplash.jpg");
-  
+    width:100%;
     /* Set a specific height */
     min-height: 500px; 
   
@@ -384,7 +385,9 @@ section{
   .hiddenclass{
     display: none;
   }
-  
+  #contact{
+    background-color:#3394D5;
+  }
   .contact{
     background-color:#3394D5;
     height: 35em;
