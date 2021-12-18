@@ -223,6 +223,7 @@ transform: translate(-50%, -50%);
     }
 
     .card-sm {
+      margin-left:0.5em;
         border-radius:5%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       padding: 16px;
@@ -271,7 +272,7 @@ transform: translate(-50%, -50%);
       .portfolio-column-sm img {
         vertical-align: middle;
         height: 10em;
-        width: 15em;
+        width: 16em;
         padding: 0.3em 1em;
       }
 
