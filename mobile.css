@@ -218,8 +218,7 @@ transform: translate(-50%, -50%);
 
   .experience-row-sm {
     margin-top: 2em;
-    margin-left: 0.8em;
-
+    margin-left: 1.5em;
     padding:1.5em;
     }
 
@@ -272,7 +271,7 @@ transform: translate(-50%, -50%);
       .portfolio-column-sm img {
         vertical-align: middle;
         height: 10em;
-        width: 13em;
+        width: 15em;
         padding: 0.3em 1em;
       }
 
