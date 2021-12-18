@@ -223,7 +223,7 @@ transform: translate(-50%, -50%);
     }
 
     .card-sm {
-      margin-left:0.5em;
+      margin-left:1em;
         border-radius:5%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       padding: 16px;
