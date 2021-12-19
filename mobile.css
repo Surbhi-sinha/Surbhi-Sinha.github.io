@@ -17,6 +17,8 @@
   }
 
 .centered-sm{
+
+  background: rgba(45, 46, 45, 0.6);
     position: absolute;
     top: 20%;
     left: 50%;
@@ -110,10 +112,14 @@ transform: translate(-50%, -50%);
 .centeredintro-sm ul li{
     font-size: xx-small;
 }
-
+#about{
+  margin-top: -1.2em;
+  background-color:black;
+  color:white;
+}
 .aboutuscolumn-sm img{
       margin-top:10%;
-      border:solid rgb(237, 111, 132) 3px;
+      border:solid rgb(245, 163, 177) 3px;
       border-radius: 30%;
       height: 15em;
       width:12em;
@@ -152,7 +158,7 @@ transform: translate(-50%, -50%);
 }
   .about-column-sm i{
     font-size:40px;
-      color: rgb(235, 75, 101);
+      color: rgb(255, 153, 170);
 
   }
 
@@ -160,7 +166,7 @@ transform: translate(-50%, -50%);
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 5%;
     margin-bottom: 5%;
-    color:rgb(194, 24, 52);
+    color:rgb(242, 118, 138);
     margin-left:3%;
     font-size: x-small;
   }
@@ -272,8 +278,8 @@ transform: translate(-50%, -50%);
       .portfolio-column-sm img {
         vertical-align: middle;
         height: 10em;
-        width: 18em;
-        padding: 0.3em 1em;
+        width: 17em;
+        padding: 0.3em 0.3em;
       }
 
       .portfolio-column-sm img:hover{
