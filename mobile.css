@@ -76,20 +76,35 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 .fa-linkedin{
-    color: rgb(78, 78, 204);
+    color: rgb(229, 229, 240);
     font-size:10px;
 }
-.fa-githur{
-    color:rgb(77, 75, 75);
+.fa-linkedin:hover{
+  color: #5820f2;
+}
+.fa-github{
+    color:rgb(229, 237, 240);
+}
+.fa-github:hover{
+  color: #2b2a2c;
 }
 .fa-twitter{
-    color:rgb(0, 187, 255);
+    color:rgb(229, 229, 240);
+}
+.fa-twitter:hover{
+  color:rgb(19, 177, 235);
 }
 .fa-quora{
-    color:red;
+    color:rgb(229, 229, 240);
+}
+.fa-quora:hover{
+  color: red;
 }
 .fa-instagram{
-    color:rgba(253, 9, 172, 0.898);
+    color:rgb(229, 229, 240);
+}
+.fa-instagram:hover{
+  color: rgb(232, 6, 104);
 }
 
 #intro{
@@ -113,7 +128,7 @@ transform: translate(-50%, -50%);
     font-size: xx-small;
 }
 #about{
-  margin-top: -1.2em;
+  margin-top: -1.3em;
   background-color:black;
   color:white;
 }
